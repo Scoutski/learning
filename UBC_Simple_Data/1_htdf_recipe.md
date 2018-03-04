@@ -1,4 +1,4 @@
-# How to Code: Simple Data :page_with_curl:
+# :page_with_curl: How to Code: Simple Data
 
 ## HtDF (How to Design Functions) Recipe
 
@@ -10,16 +10,16 @@
 
 ### Steps
 
-1. Define Signature :arrow_right:
+1. :arrow_right: Define Signature
 
 Show the input(s) and output(s) of the given function in this format:
 
 ```js
 // Type -> Type
-// e.g. String, Number -> Boolean
+// e.g. Number -> Boolean
 ```
 
-2. Description :page_facing_up:
+2. :page_facing_up: Description
 
 One line description explaining in real world terms the purpose of the function. Explanations can imply expected results if other cases are covered.
 
@@ -28,7 +28,7 @@ One line description explaining in real world terms the purpose of the function.
 // e.g. Given a number, returns true if the number is even
 ```
 
-3. Stub :pill:
+3. :pill: Stub
 
 A syntactically complete function in the specified language that meets the criteria of the signature.
 
@@ -39,7 +39,7 @@ function isEven (n) {
 }
 ```
 
-4. Tests/Examples :white_check_mark:
+4. :white_check_mark: Tests/Examples
 
 Using whatever test framework is appropriate, check the cases required to test a function. There should be enough examples to cover all edge cases as well
 
@@ -49,7 +49,7 @@ console.assert(isEven(2) === true);
 console.assert(isEven(1) === false);
 ```
 
-5. Template :repeat:
+5. :repeat: Template
 
 A template can be used for functions that follow a specific format (depending on the langauge), the template can include constants if they would be required.
 
@@ -60,7 +60,7 @@ function isEven (n) {
 }
 ```
 
-6. Code :clapper:
+6. :clapper: Code
 
 The actual code that will pass the tests written earlier. It is useful to use all the steps above to help write the function.
 
@@ -71,6 +71,6 @@ function isEven (n) {
 }
 ```
 
-7. Debugging :bug:
+7. :bug: Debugging
 
 After the code has been written, it is time to test and debug until all the tests pass. Remember to start running the code as early as possible to identify bugs as soon as they appear (for instance, a syntax error in the stub).
