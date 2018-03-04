@@ -9,6 +9,7 @@
 - Used for systematic design of functions in step-by-step process
 - Not necessary to complete in order as some requirements may not become clear until all details are revealed
 - Source: https://courses.edx.org/courses/course-v1:UBCx+HtC1x+2T2017/77860a93562d40bda45e452ea064998b/#HtDF
+- Almost completely orthoganal ([Glossary Link](https://github.com/Scoutski/learning/tree/master/Programming_Glossary#orthogonal)) when interacting with other design recipes.
 
 ### Steps
 
