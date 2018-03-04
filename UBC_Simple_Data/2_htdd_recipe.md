@@ -15,6 +15,6 @@
 
 Determine the structure of the information trying to be represented. This will determine the complexity for the data. There are several types of data structures covered here:
 
-| Type | Description |
---- | ---
-**Atomic** | The simplest form of data to represent, e.g. whether a light switch is on or off.
+| Type | Description | Glossary |
+--- | --- | ---
+**Atomic** | The simplest form of data to represent, e.g. whether a light switch is on or off. | [Click Here](https://github.com/Scoutski/learning/tree/master/Programming_Glossary#atomic-data)
