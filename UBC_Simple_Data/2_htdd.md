@@ -1,6 +1,6 @@
 # :page_with_curl: How to Code: Simple Data
 
-## HtDD (How to Design Data) Recipe
+## HtDD (How to Design Data)
 
 [:zap: Course Link](https://courses.edx.org/courses/course-v1:UBCx+HtC1x+2T2017/77860a93562d40bda45e452ea064998b/#HtDD)
 
@@ -22,7 +22,6 @@ Determine the structure of the information trying to be represented. This will d
 **Interval** | Numbers in a specific range
 **Enumeration** | One of a set of distinct values
 **Itemization** | 2 or more subclasses, at least one of which is not a distinct value
-
 
 2. :package: Type comment
 
