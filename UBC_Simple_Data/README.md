@@ -1,4 +1,4 @@
-# :briefcase: UBCs How to Code: Simple Data course
+# :page_with_curl: UBCs How to Code: Simple Data course
 
 ## :information_desk_person: Course Information
 
