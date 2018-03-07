@@ -27,3 +27,22 @@
     2. Define the data to be consumed by the `big-bang` function using the HtDD recipe.
     3. Write the required function(s) using the HtDF recipe. Start with the `main` function and then fill in the wish list functions with real information so that the program can run.
     4. Work through each of the wish list functions until the program is complete!
+
+### :smiley_cat: Cat Program Domain Analysis
+
+Constant Values:
+
+- Screen Width
+- Screen Height
+- Center of the Y axis (half height)
+- Empty Space Object
+- Cat Image
+- Speed
+
+Changing Values:
+- X Coordinate of cat
+
+Big-bang options:
+- on-tick (use Speed)
+- on-draw
+- on-key
