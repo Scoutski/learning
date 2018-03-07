@@ -17,7 +17,7 @@ This course was the first listed on [OSSU's](https://github.com/ossu/computer-sc
 
 - [x] How to design Functions
 - [x] How to design Data
-- [ ] How to design Worlds
+- [x] How to design Worlds
 - [ ] Compound Data
 - [ ] Self-reference
 - [ ] Reference
