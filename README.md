@@ -18,3 +18,4 @@ None yet, coming soon!
 
 - [More from OSSU's CS Path](https://github.com/ossu/computer-science)
 - [SICP Course](https://github.com/creactiviti/sicp-course)
+- [What to learn in 2017 (even though its 2018 now...)](https://medium.freecodecamp.org/what-to-learn-in-2017-if-youre-a-frontend-developer-b6cfef46effd)
