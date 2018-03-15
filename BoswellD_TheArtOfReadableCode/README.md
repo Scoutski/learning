@@ -12,7 +12,7 @@
 - [x] Packing Information into Names
 - [x] Names That Can’t Be Misconstrued
 - [x] Aesthetics
-- [ ] Knowing What to Comment
+- [x] Knowing What to Comment
 - [ ] Making Comments Precise and Compact
 - [ ] Making Control Flow Easy to Read
 - [ ] Breaking Down Giant Expressions
@@ -78,3 +78,37 @@ const heightCm  = 180;
 
 - Break code into _paragraphs_ when you recognise that related lines can be put together.
 - When entering an existing project, conform to the existing style rather than introducing personal style. **Consistency is always the most important thing for readability.**
+
+### Commenting
+
+- The purpose of commenting is **to help the reader know as much as the writer did.**
+- Always prefer using better naming instead of commenting difficult names, e.g.
+
+```js
+// maximum number of concurrent connections
+var max = 10;
+
+// vs simply writing:
+
+var maxConnections = 10;
+```
+
+Another way to remember this is **Good code > Bad Code + Comments.**
+
+- Rather than just explaining what code does, comments can be useful by explaining the thoughts of the writer, by suggesting why one method was chosen over another or suggestions for how something could be improved.
+- Typical labels for commenting around code that needs fixing are:
+
+Label | Meaning
+--- | ---
+**TODO** | Task that needs to be done
+**FIXME** | Known issue here
+**HACK** | Known inelegant solution used
+**XXX** | Dangerous code with major problem
+
+- When constants are set (e.g. max connections), if there is no clear reason why, document how it was determined, even if it's arbitrary.
+- If you're unsure about whether or not a comment is needed, **put yourself in the readers shoes** and think about whether they would understand it.
+- Comment any known pitfalls such as runtime or edge cases that might cause issues.
+- Include **big picture** comments at the start of files that discuss a file/folders place in the overall system and how it fits.
+- Comments can also be used to summarize chunks of code along the way in a larger function.
+- Writing comments as you go is always a lot better than writing a whole lot at the end. The in the moment thought process is more valuable that reflecting after it's done.
+
