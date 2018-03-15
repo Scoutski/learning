@@ -8,8 +8,8 @@ Except for the *Programming_Glossary*, the folders are structured with a simple 
 
 ## :question: Currently working on
 
-[UBC's How to Code: Simple Data](https://github.com/Scoutski/learning/tree/master/UBC_Simple_Data) presented by [Gregor Kiczales](https://www.edx.org/bio/gregor-kiczales)
-[The Art of Readable Code](http://shop.oreilly.com/product/9780596802301.do) By [Dustin Boswell](http://www.oreilly.com/pub/au/4724) and [Trevor Foucher](http://www.oreilly.com/pub/au/4725)
+- [UBC's How to Code: Simple Data](https://github.com/Scoutski/learning/tree/master/UBC_Simple_Data) presented by [Gregor Kiczales](https://www.edx.org/bio/gregor-kiczales)
+- [The Art of Readable Code](http://shop.oreilly.com/product/9780596802301.do) By [Dustin Boswell](http://www.oreilly.com/pub/au/4724) and [Trevor Foucher](http://www.oreilly.com/pub/au/4725)
 
 ## :star: Completed learnings
 
