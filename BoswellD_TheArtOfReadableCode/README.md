@@ -13,7 +13,7 @@
 - [x] Names That Can’t Be Misconstrued
 - [x] Aesthetics
 - [x] Knowing What to Comment
-- [ ] Making Comments Precise and Compact
+- [x] Making Comments Precise and Compact
 - [ ] Making Control Flow Easy to Read
 - [ ] Breaking Down Giant Expressions
 - [ ] Variables and Readability
@@ -79,7 +79,7 @@ const heightCm  = 180;
 - Break code into _paragraphs_ when you recognise that related lines can be put together.
 - When entering an existing project, conform to the existing style rather than introducing personal style. **Consistency is always the most important thing for readability.**
 
-### Commenting
+### When to comment
 
 - The purpose of commenting is **to help the reader know as much as the writer did.**
 - Always prefer using better naming instead of commenting difficult names, e.g.
@@ -111,4 +111,17 @@ Label | Meaning
 - Include **big picture** comments at the start of files that discuss a file/folders place in the overall system and how it fits.
 - Comments can also be used to summarize chunks of code along the way in a larger function.
 - Writing comments as you go is always a lot better than writing a whole lot at the end. The in the moment thought process is more valuable that reflecting after it's done.
+
+### How to comment
+
+- Avoid using it/this, use specific pronouns when possible.
+- When a functions purpose is somewhat ambiguous, it can be helpful to provide an example input/output just to clarify it's behaviour.
+- Rather than just writing what a piece of code literally does, describe the intention of the block. That will also prove a lot more useful in the event of a bug.
+- When calling an ambiguous function with ambiguous parameters (e.g. an integer or boolean), it can be helpful to comment their meaning to make it easier for another programmer who comes along. e.g.
+
+```js
+updateData(/* maxUpdateAttempts = */ 5, /* fetchAfterUpdate = */ true)
+```
+
+Note that this doesn't need to be used often, but when something would be very confusing otherwise, it's a big help.
 
