@@ -27,6 +27,10 @@ function debounce(func, wait, immediate) {
 };
 ```
 
+## Granularity
+
+> Granularity refers to the level of detail and scale when it comes to either a task or piece of information.  When looking at processes, granularity refers to the size of the task being performed, generally with less code to be most efficient. Generally when developers talk about granularity, they are talking about breaking things down into smaller, more manageable pieces.
+
 ## Orthogonalilty:
 
 > Orthogonal designs/functions are independent of other designs/functions and should operate the same regardless of whether or not a different pattern is used or a different function is run. Orthogonality also the basis of functional programming where a function does not have any side-effects.

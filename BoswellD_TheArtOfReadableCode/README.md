@@ -125,3 +125,18 @@ updateData(/* maxUpdateAttempts = */ 5, /* fetchAfterUpdate = */ true)
 
 Note that this doesn't need to be used often, but when something would be very confusing otherwise, it's a big help.
 
+### Simplifying loops and logic
+
+- Conditionals, loops and control flow should always be written in a way that doesn't require someone to reread the code.
+- The ordering of if conditions is often simplified using the following logic:
+
+Lefthand argument | Righthand argument
+| --- | --- |
+The in flux argument, also the one being _interrogated_. | The more stable argument, or the one _being compared to_.
+
+When ordering statements from an if/else block, follow these rules where possible:
+
+- Positive cases before negative
+- Simpler cases first
+- Most complex/_interesting_ case last
+
